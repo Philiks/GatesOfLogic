@@ -1,0 +1,45 @@
+Color legends:
+
+inputs:
+yellow(255, 255, 0)   - ON
+cyan  (0, 255, 255)   - OFF
+
+expected answer *
+      (128, 128, 0)   - ON
+      (0, 128, 128)   - OFF
+      (128, 128, 128) - BOTH ON & OFF is possible
+
+inputs in the array *
+      (64, 64, 0)     - ON, ON
+      (0, 64, 64)     - OFF, OFF
+      (64, 0, 64)     - ON, OFF or OFF, ON
+
+*must place above the missing gate 
+to above passing null value
+
+gates:
+red   (255, 0, 0)     - OR
+green (0, 255, 0)     - AND
+blue  (0, 0, 255)     - NOT
+
+gates in container
+      (128, 0, 0)     - OR
+      (0, 128, 0)     - AND
+
+gate outline
+      (128, 0, 128)   - gate outline
+
+lines
+      (64, 64, 64)    - horizontal
+      (32, 32, 32)    - vertical
+
+proceed to next x coordinante
+      (150, 100, 50)  - next x
+
+solve button
+      (64, 128, 255)  - solve
+next_or_retry button
+      (32, 64, 128)   - next/retry
+
+end:
+pink  (255, 0, 255)   - end
